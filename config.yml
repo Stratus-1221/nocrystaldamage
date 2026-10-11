@@ -1,0 +1,3 @@
+# true = end crystals cannot damage players (blocks/mobs/dragon unaffected)
+# Edit, then run /ncd reload
+enabled: true

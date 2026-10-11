@@ -1,0 +1,16 @@
+name: NoCrystalDamage
+version: 1.0.0
+main: dev.ethereal.nocrystaldamage.NoCrystalDamage
+api-version: '1.20'
+description: Stops end crystals from damaging players.
+author: stratus1221
+commands:
+  nocrystaldamage:
+    description: Show status or reload config
+    usage: /nocrystaldamage [reload]
+    aliases: [ncd]
+    permission: nocrystaldamage.admin
+permissions:
+  nocrystaldamage.admin:
+    description: Use /nocrystaldamage
+    default: op
